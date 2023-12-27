@@ -1,13 +1,13 @@
 let numero1_ = parseFloat(prompt("Ingrese el primer número:"));
-    let numero2_ = parseFloat(prompt("Ingrese el segundo número:"));
-    let numero3_ = parseFloat(prompt("Ingrese el tercer número:"));
+let numero2_ = parseFloat(prompt("Ingrese el segundo número:"));
+let numero3_ = parseFloat(prompt("Ingrese el tercer número:"));
 
-    if (numero1 > numero2 && numero1 > numero3) {
-      document.write("El número mayor es: " + numero1);
-    } else if (numero2 > numero1 && numero2 > numero3) {
-      document.write("El número mayor es: " + numero2);
-    } else if (numero3 > numero1 && numero3 > numero2) {
-      document.write("El número mayor es: " + numero3);
+    if (numero1_ > numero2_ && numero1_ > numero3_) {
+      document.write("<br>El número mayor es: " + numero1_git);
+    } else if (numero2_ > numero1_ && numero2_ > numero3_) {
+      document.write("<br>El número mayor es: " + numero2_);
+    } else if (numero3_ > numero1_ && numero3_ > numero2_) {
+      document.write("<br>El número mayor es: " + numero3_);
     } else {
-      document.write("Los números son iguales.");
+      document.write("<br>Los números son iguales.");
     }
